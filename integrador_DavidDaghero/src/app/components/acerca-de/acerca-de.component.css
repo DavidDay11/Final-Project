@@ -8,6 +8,34 @@ div {
 }
 
 
+/*estilo de foto de perfil*/
+
+@media(min-width: 576px) {
+    #fotodeperfil {
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 3%;
+        top: 600px;
+    }
+}
+
+@media(min-width: 575px) {
+    #fotodeperfil {
+        position: absolute;
+        width: 30%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 34%;
+        top: 630px;
+    }
+}
+
+
+/*hacer para pantallas menores a 450 aprox revisar*/
+
+
 /* etiqueta nombre*/
 
 #nombre {
