@@ -21,14 +21,47 @@ div {
     }
 }
 
-@media(min-width: 575px) {
+@media(max-width: 575px) {
     #fotodeperfil {
         position: absolute;
-        width: 30%;
+        width: 34%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
-        left: 34%;
+        left: 35%;
         top: 630px;
+    }
+}
+
+@media(max-width: 414px) {
+    #fotodeperfil {
+        position: absolute;
+        width: 34%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 35%;
+        top: 710px;
+    }
+}
+
+@media(max-width: 264px) {
+    #fotodeperfil {
+        position: absolute;
+        width: 34%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 35%;
+        top: 750px;
+    }
+}
+
+@media(max-width: 164px) {
+    #fotodeperfil {
+        position: absolute;
+        width: 38%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 35%;
+        top: 800px;
     }
 }
 
